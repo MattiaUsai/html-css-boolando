@@ -13,6 +13,38 @@ body{
     flex-wrap: wrap;
     
 }
+header{
+    background-color: orange ;
+}
+.logo{
+    max-width: 50%;
+}
+.buttons{
+   
+    line-height: 4;
+    text-align: right;
+}
+.button{
+    background-color: orange;
+    border: 0;
+    color: white;
+    margin: 10px;
+    font-size: xx-large;
+}
+.button:hover{
+    color: black;
+}
+.hlogo{
+   
+    text-align: center;
+}
+.categories{
+    
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+   line-height: 4;
+}
 .row{
     width: 100%;
     padding-top: 100px;
@@ -23,6 +55,10 @@ body{
 }
 .col-50{
     width: calc(100%/2);
+    text-align: center;
+}
+.col-25{
+    width: 25%;
 }
 .content{
     position: relative;
@@ -78,14 +114,14 @@ img{
 }
 .info-img{
     position: absolute;
-    bottom: 150px;
-    padding 5px 10px;
+    bottom: 100px;
+    left: 10px;
 }
 .bg-red{background-color: red;}
 .bg-green{background-color: green;}
 
-.discount{
+.info{
     padding:  5px;
-    background-color: red;
+   text-transform: uppercase;
     border-radius: 3px;
 }
