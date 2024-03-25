@@ -76,3 +76,16 @@ img{
 .heart-contain:hover .heart-view{
     display: none;
 }
+.info-img{
+    position: absolute;
+    bottom: 150px;
+    padding 5px 10px;
+}
+.bg-red{background-color: red;}
+.bg-green{background-color: green;}
+
+.discount{
+    padding:  5px;
+    background-color: red;
+    border-radius: 3px;
+}
