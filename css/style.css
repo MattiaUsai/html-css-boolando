@@ -13,47 +13,6 @@ body{
     flex-wrap: wrap;
     
 }
-header{
-    background-color: orange ;
-    color: white;
-}
-.logo{
-    max-width: 50%;
-}
-.buttons{
-   
-    line-height: 4;
-    text-align: right;
-}
-.button{
-    background-color: orange;
-    border: 0;
-    color: white;
-    margin: 10px;
-    font-size: xx-large;
-}
-
-.button:hover{
-    color: black;
-}
-.shopp{
- width: 30px;
-}
-
-.category:hover{
-   color: black; 
-}
-.hlogo{
-   
-    text-align: center;
-}
-.categories{
-    
-    text-align: left;
-    font-size: large;
-    font-weight: bold;
-   line-height: 4;
-}
 .row{
     width: 100%;
     padding-top: 100px;
@@ -69,6 +28,49 @@ header{
 .col-25{
     width: 25%;
 }
+
+header{
+     background-color: orange ; /*colore sfondo header arancone */
+    color: white;
+}
+
+.logo{
+    max-width: 50%;
+}
+/* buttons header */
+.buttons{
+    line-height: 4;
+    text-align: right;
+}
+.button{
+    background-color: orange;
+    border: 0;
+    color: white;
+    margin: 10px;
+    font-size: xx-large;
+}
+.button:hover{
+    color: black;
+}
+.shopp{
+ width: 30px;
+}
+/* cambia il colore al passare del mouse  */
+.category:hover{
+   color: black; 
+}
+/* imposta il logo al centro  */
+.hlogo{
+    text-align: center;
+}
+/* stilizza le categorie nell'header */
+.categories{
+     text-align: left;
+    font-size: large;
+    font-weight: bold;
+   line-height: 4;
+}
+/* contenitore per le immaggini dei prodotti */
 .content{
     position: relative;
     margin: 20px 10px;   
@@ -82,6 +84,7 @@ img{
 .price{
     color: red;
 }
+/* imposta la prima lettera maiuscola nella marca  */
 .mark{
     text-transform: capitalize;
 }
@@ -89,6 +92,7 @@ img{
     color: blue;
     text-decoration: line-through;
 }
+/* rende tutto maiuscolo il nome dei prodotti  */
 .name{
     text-transform: uppercase;
 }
@@ -102,6 +106,7 @@ img{
 .content:hover .hover{
     display: block;
 }
+/* sfondo per il like */
 .heart-contain{
     background-color: whitesmoke;
     padding: 10px 20px;
@@ -110,7 +115,7 @@ img{
     right: 0;
     font-size: x-large;
 }
-
+/* selettori hover per cambiare colore al cuore */
 .heart-hover{
     display: none;
     color: red;
@@ -121,6 +126,7 @@ img{
 .heart-contain:hover .heart-view{
     display: none;
 }
+/* impostano lo sconto e la targetta sostanibile nell'immagine */
 .info-img{
     position: absolute;
     bottom: 100px;
