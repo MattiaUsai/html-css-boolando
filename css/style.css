@@ -25,7 +25,7 @@ body{
     width: calc(100%/2);
 }
 .content{
-    background-color: gray;
+    position: relative;
     margin: 20px 10px;   
 }
 img{
@@ -36,7 +36,9 @@ img{
 
 .price{
     color: red;
-
+}
+.mark{
+    text-transform: capitalize;
 }
 .ex-price{
     color: blue;
@@ -45,6 +47,7 @@ img{
 .name{
     text-transform: uppercase;
 }
+/* selettori hover per l'immagine del prodotto */
 .hover{
     display: none;
 }
@@ -54,4 +57,22 @@ img{
 .content:hover .hover{
     display: block;
 }
+.heart-contain{
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: x-large;
+}
 
+.heart-hover{
+    display: none;
+    color: red;
+}
+.heart-contain:hover .heart-hover{
+    display: block;
+}
+.heart-contain:hover .heart-view{
+    display: none;
+}
