@@ -15,6 +15,7 @@ body{
 }
 header{
     background-color: orange ;
+    color: white;
 }
 .logo{
     max-width: 50%;
@@ -31,8 +32,16 @@ header{
     margin: 10px;
     font-size: xx-large;
 }
+
 .button:hover{
     color: black;
+}
+.shopp{
+ width: 30px;
+}
+
+.category:hover{
+   color: black; 
 }
 .hlogo{
    
