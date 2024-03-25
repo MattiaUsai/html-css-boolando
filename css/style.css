@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
     max-width: 1200px;
     margin: auto;
@@ -23,9 +26,32 @@
 }
 .content{
     background-color: gray;
-    margin: 20px 10px;
-    
+    margin: 20px 10px;   
 }
 img{
     width: 100%;
 }
+
+/* selettori di personalizzazione */
+
+.price{
+    color: red;
+
+}
+.ex-price{
+    color: blue;
+    text-decoration: line-through;
+}
+.name{
+    text-transform: uppercase;
+}
+.hover{
+    display: none;
+}
+.content:hover .view{
+    display: none;
+}
+.content:hover .hover{
+    display: block;
+}
+
